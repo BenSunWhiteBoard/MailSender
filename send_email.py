@@ -7,7 +7,7 @@ mail.Body = 'Message body'
 mail.HTMLBody = '<h2>HTML Message body</h2>' #this field is optional
 
 # To attach a file to the email (optional):
-attachment = r'G:\Playground\test.txt'
+attachment = r'G:\Playground\resources\test.txt'
 mail.Attachments.Add(attachment)
 
 mail.Send()
